@@ -12,11 +12,17 @@ var i=setInterval(function(){
         window.EditorFutures.loadEditor = (id) => {
             window.editor = HE.getEditor(id);
         }
-        window.EditorFutures.getHTML = (editor) => {
+        window.EditorFutures.getHTML = () => {
             return window.editor.getHTML();
         }
-        window.EditorFutures.getText = (editor) => {
+        window.EditorFutures.getText = () => {
             return window.editor.getText();
+        }
+        window.EditorFutures.set = (text) => {
+            return window.editor.set(text);
+        }
+        window.EditorFutures.show = () => {
+            return window.editor.show();
         }
         clearInterval(i)}
     console.log(1)
