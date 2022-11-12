@@ -4,10 +4,10 @@ scriptElement.setAttribute("async","")
 scriptElement.setAttribute("defer","")
 document.getElementsByTagName("body")[0].append(scriptElement)
 
-// DEBUG ONLY
+/*// DEBUG ONLY
 var test = document.createElement("div")
 test.setAttribute("id","h-captcha")
-document.getElementsByTagName("body")[0].append(test)
+document.getElementsByTagName("body")[0].append(test)*/
 
 var t = setInterval(()=>{
     if(hcaptcha){
