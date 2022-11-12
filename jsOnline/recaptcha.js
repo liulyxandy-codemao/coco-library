@@ -12,7 +12,7 @@ document.getElementsByTagName("body")[0].append(test)
 var t = setInterval(()=>{
     if(hcaptcha){
         window.hcaptcha = hcaptcha;
-        window.capid = hcaptcha.render('h-captcha',{sitekey:"1389c4ba-979e-4013-87b4-28b5bdf598d0"})
+        window.capid = window.hcaptcha.render('h-captcha',{sitekey:"1389c4ba-979e-4013-87b4-28b5bdf598d0"})
         clearInterval(t)
     }
 },500)
