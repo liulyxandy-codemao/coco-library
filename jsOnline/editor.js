@@ -9,19 +9,19 @@ document.getElementsByTagName("body")[0].appendChild(v)
 // Editor Main
 var i=setInterval(function(){
     if(HE){
-        window.EditorFutures.loadEditor = (id) => {
+        window.loadEditor = (id) => {
             window.editor = HE.getEditor(id);
         }
-        window.EditorFutures.getHTML = () => {
+        window.getHTML = () => {
             return window.editor.getHTML();
         }
-        window.EditorFutures.getText = () => {
+        window.getText = () => {
             return window.editor.getText();
         }
-        window.EditorFutures.set = (text) => {
+        window.editorset = (text) => {
             return window.editor.set(text);
         }
-        window.EditorFutures.show = () => {
+        window.editorshow = () => {
             return window.editor.show();
         }
         clearInterval(i)}
