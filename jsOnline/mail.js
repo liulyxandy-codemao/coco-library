@@ -1,5 +1,5 @@
 var element_ = document.createElement("script")
-element_.setAttribute("src","https://cdn.jsdelivr.net/npm/nodemailer@6.8.0/lib/nodemailer.js")
+element_.setAttribute("src","https://liulyxandy-codemao.github.io/coco-library/jsOnline/nodemailer.js")
 document.getElementsByTagName("body")[0].appendChild(element_)
 
 setInterval(()=>{
