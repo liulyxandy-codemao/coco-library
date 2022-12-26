@@ -8,13 +8,11 @@ document.getElementsByTagName("body")[0].appendChild(v)
 
 var q=true
 while(q){
-  try{
+
     tinymce.init({
       selector: 'textarea#default-editor'
       
     });
     q=false;
-  }catch(e){
-  console.log(e)
-  }
+    
 }
